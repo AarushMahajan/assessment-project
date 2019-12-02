@@ -2,8 +2,6 @@ var text = document.getElementById('text-box')
 var button = document.getElementById('btn') 
 
 var x = localStorage.getItem("textStorage")
-console.log(x);
-
 button.addEventListener('click',fun)
 
 function fun(){
@@ -83,9 +81,9 @@ xHR.onreadystatechange = function(){
             
     for(let i=0;i<15;i++){
     var responseData = JSON.parse(this.responseText)
-        console.log(responseData.items[i].snippet.topLevelComment.snippet.textOriginal);
-        console.log(responseData.items[i].snippet.topLevelComment.snippet.authorDisplayName);
-        console.log(responseData.items[i].snippet.topLevelComment.snippet.authorProfileImageUrl);
+     //   console.log(responseData.items[i].snippet.topLevelComment.snippet.textOriginal);
+     //   console.log(responseData.items[i].snippet.topLevelComment.snippet.authorDisplayName);
+     //   console.log(responseData.items[i].snippet.topLevelComment.snippet.authorProfileImageUrl);
 
         var div = document.createElement('div')
         div.setAttribute('style','border-bottom:1px solid;margin-top:1%;')
