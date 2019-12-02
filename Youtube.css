@@ -1,0 +1,104 @@
+body{
+    background-image: url("b.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   color: white;
+   font-family: calibri;
+   text-shadow: 10px 10px 20px black;
+}
+.div{
+    margin-left: 40%;
+}
+.frame0{
+    margin-top: 15%;
+    margin-left: 1%;
+    width: 900px;
+    height: 500px;
+    box-shadow: 10px 10px 20px black;
+
+}
+.frame1,.frame2,.frame3,.frame4{
+    width: 300px;
+    height: 200px;
+    box-shadow: 10px 10px 20px black;
+
+}
+.div1{
+    margin-left: 62%;
+    margin-top: -508px;
+}
+.div2,.div3,.div4{
+    margin-left: 62%;
+}
+.divS0{
+    margin-top: 0%;
+    margin-left: 1%;
+    font-size:1px;
+    width: 30%;
+    position: absolute;
+}
+.divS1,.divS2,.divS3,.divS4{
+    position: absolute;
+    font-size: 20px;
+    /* color: white; */
+    width: 17%;
+    margin-left: 82%;
+    margin-top: -14%;
+    /* z-index: 999; */
+}
+.namea{
+    margin-left: 50%;
+}
+
+#text-box{
+    height:40px;
+    width:300px;
+    border-radius:20%;
+}
+.div text-box{
+    margin-top:-55px;
+}
+#btn{
+margin-top:15px;
+    height:40px;
+    width:40px;
+}
+.nav{
+  background-color:black;
+  overflow: hidden;
+  margin-top: -8px;
+}
+.nav-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  height: 70px;
+}
+li{
+    float: right;
+    margin-left: 5%;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #ddd;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+    border-radius: 30%;
+    margin-top: 5px;
+    margin-left: 5px;
+    position: absolute;
+}

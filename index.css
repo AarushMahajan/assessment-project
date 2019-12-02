@@ -1,0 +1,123 @@
+body{
+    background-image: url("c.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+    font-family:  Calibri;
+    font-size: 20px;
+    text-shadow: 10px 10px 20px black;
+}
+.div0{
+    margin-top: 10%;
+    margin-left: 4%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+}
+.div1{
+    margin-left: 34.5%;
+    margin-top: -25%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+}
+.div2{
+    margin-left: 65%;
+    margin-top: -27%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+}
+.div3{
+    margin-left: 3.5%;
+    margin-top: 8%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+}
+.div4{
+    margin-left: 35%;
+    margin-top: -25%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+
+}
+.div5{
+    margin-left: 66%;
+    margin-top: -25%;
+    width: min-content;
+    /* box-shadow: 10px 10px 20px black; */
+
+}
+.div6,.div9{
+    margin-left: 3.5%;
+    margin-top: 8%;
+    /* box-shadow: 10px 10px 20px black; */
+    width: min-content;
+}
+.div7,.div10{
+    margin-left: 35%;
+    margin-top: -24%;
+    /* box-shadow: 10px 10px 20px black; */
+    width: min-content;
+}
+.div8,.div11{
+    /* box-shadow: 10px 10px 20px black; */
+    width: min-content;
+    margin-top: -25%;
+    margin-left: 66%;
+}
+iframe{
+    width: 400px;
+    height: 300px;
+    box-shadow: 10px 10px 20px black;
+
+}
+#text-box{
+    height:40px;
+    width:300px;
+    border-radius:20%
+}
+.div text-box{
+    margin-top:-55px;
+}
+#btn{
+margin-top:15px;
+    height:40px;
+    width:40px;
+}
+.nav{
+    background-color:black;
+    overflow: hidden;
+    margin-top: -8px;
+  }
+  .nav-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    height: 70px;
+  }
+  li{
+      float: right;
+      margin-left: 5%;
+      font-size: 25px;
+      font-family: Calibri;
+      font-weight: bold;
+  }
+  li a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  li a:hover {
+      background-color: #ddd;
+  }
+  .logo{
+      height: 50px;
+      width: 70px;
+      border-radius: 30%;
+      margin-top: 5px;
+      margin-left: 5px;
+      position: absolute;
+  }
