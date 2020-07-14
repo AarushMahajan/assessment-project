@@ -15,7 +15,7 @@ function bot(){
 text = " "
 var button = document.getElementById('btn') 
 
-var url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=12&q="+text+"&key=AIzaSyBwOUqjVOuNxnmy91ilJ9UsL10gs7aFKBw"
+var url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=12&q="+text+"&key=AIzaSyDdMu63C0VfZwFJPkSqPGUQWKHoyPJ3sI4"
 var xHR = new XMLHttpRequest();
 xHR.open('Get',url);
 
