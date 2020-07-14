@@ -13,7 +13,7 @@ function fun(){
 
 
 
-var url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${x}&key=AIzaSyBwOUqjVOuNxnmy91ilJ9UsL10gs7aFKBw`
+var url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${x}&key=AIzaSyDdMu63C0VfZwFJPkSqPGUQWKHoyPJ3sI4`
 var xHR = new XMLHttpRequest();
 xHR.open('Get',url);
 
@@ -60,7 +60,7 @@ xHR.onreadystatechange = function(){
 
     // comment api
 
-    var url = `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=AIzaSyBwOUqjVOuNxnmy91ilJ9UsL10gs7aFKBw&videoId=${comment_videoId}&maxResults=20`
+    var url = `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&key=AIzaSyDdMu63C0VfZwFJPkSqPGUQWKHoyPJ3sI4&videoId=${comment_videoId}&maxResults=20`
     var xHR1 = new XMLHttpRequest();
     xHR1.open('Get',url);
     
